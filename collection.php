@@ -2,7 +2,7 @@
 include_once __DIR__ . '/movie.php';
 
 //  Placeholder viariable
-$age = 10;
+$age = 20;
 
 $movie_collection = [
     new Movie(

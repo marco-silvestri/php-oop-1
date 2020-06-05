@@ -7,7 +7,7 @@ class Movie {
     public $genre;
     public $restriction;
     public $age;
-    public $visibile;
+    public $visible;
 
     public function __construct($_title, $_director, $_yor, $_genre, $_restriction, $_age){
         $this->title = $_title;
@@ -29,11 +29,11 @@ class Movie {
 
     public function showMovie() {
         echo "<li>";        
-        echo "Title: {$this->title}";
-        echo "Directed by: {$this->director}";
-        echo "Released in: {$this->yor}";
-        echo "Genre: {$this->genre}";
-        echo "<li>";
+        echo "<h3>Title: {$this->title}</h3>";
+        echo "<p>Directed by: {$this->director}</p>";
+        echo "<p>Released in: {$this->yor}</p>";
+        echo "<p>Genre: {$this->genre}</p>";
+        echo "</li>";
     }
 
 };
